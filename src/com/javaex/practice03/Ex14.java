@@ -2,7 +2,7 @@ package com.javaex.practice03;
 
 import java.util.Scanner;
 
-public class Ex13 {
+public class Ex14 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -15,6 +15,9 @@ public class Ex13 {
 		
 		for(int i =1; i<=num; i++) {
 			sum = i+sum;
+			if(i!=num) {
+				System.out.print(i+"+");
+			}else System.out.println(i);
 		}
 		System.out.println("합계: "+sum);
 		
